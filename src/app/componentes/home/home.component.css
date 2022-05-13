@@ -1,9 +1,12 @@
-.body{
+.containers{
     background-color: black;
+    color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap:10px ;
 }
-.container{
-    color: rgb(247, 250, 252);
-    
+.main{
+    padding: 50px
 }
 .div{
     margin-right: 20px;
@@ -23,14 +26,12 @@
     border-radius: 20px;
 }
 .container-img{
-    position: absolute;
     display: grid;
     grid-template-columns: repeat(2, 1fr );
     grid-template-rows: repeat(2, 1fr );
     grid-gap: 15px;
-    margin-left: 60%;
-    margin-top: -32%;
-   width: 35%;
+   
+   width: 75%;
     grid-auto-rows: 120px;
 
 }
@@ -49,5 +50,60 @@ img {
 }
 .itemscontainer_item:nth-child(3){
     grid-column-start: span 1 ;
+
+}
+.carousel{
+    display: none;
+}
+@media (max-width:820px){
+
+    .containers{
+       width: 100%;
+        color: rgb(255, 255, 255);
+        display: grid;
+        grid-template-columns: 100% ;
+        grid-gap:10px ;
+        align-items: center;
+        margin: 0% auto;
+        
+    }
+     .p{
+        display: flex;
+        justify-content: center;
+
+        text-align: center;
+        flex-direction: column;
+        
+    } 
+    .a{
+     margin: 0 auto;
+     width: 240px;
+    }
+    .container-img{
+        display: none;
+    
+    }
+   
+    .carousel{
+        display: block;
+       
+        margin: 0% auto;
+    }
+    .main{
+        width: 100%;
+        padding: 0%;
+    }
+    .fw-light{
+        padding: 0px ;
+        font-size: 22px;
+        color: rgb(238, 255, 0);
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        
+    }
+    .text-muted{
+        padding: 20px;
+    }
 
 }

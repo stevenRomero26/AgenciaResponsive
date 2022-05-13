@@ -50,10 +50,9 @@ body{
     transition-property: color rgb(139, 141, 233);
     transition-duration: 2s;
 }
-@media screen (max-width:768px){
 
-    .fondo{
-        background-color: rgb(30, 214, 6);
+@media (max-width:390px){
+    .nav{
+        display: none;
     }
-    
 }

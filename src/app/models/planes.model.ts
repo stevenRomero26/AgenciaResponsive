@@ -11,4 +11,5 @@ export class DetallePlan{
     imgg: string = "";
     imgg2: string = "";
     imgg3: string = "";
+    ciudad: string ="";
 }

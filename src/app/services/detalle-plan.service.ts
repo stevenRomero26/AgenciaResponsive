@@ -21,6 +21,7 @@ export class DetallePlanService {
       id: 1,
       titulo: 'Parque tayrona',
       precio: '$310.000',
+      ciudad:  'Santa marta',
       descripcion: 'Esta bahia está ubicada a 35 minutos del rodadero en uno de los sectores del parque Tayrona, haciendo un panorámico por la ciudad de santa marta, una playa arborizada, con agua cristalina ideal para practicar la actividad del careteo o snorkling y un delicioso almuerzo típico de la región.',
       imagen: 'https://i.ibb.co/9HF3DYB/parque-tayrona.jpg" alt="parque-tayrona',
       incluye: [
@@ -51,6 +52,7 @@ export class DetallePlanService {
       id: 2,
       titulo: 'inca inca',
       precio: '$60.000',
+      ciudad:  'Santa marta - rodadero',
       descripcion: 'Hermosa y Tranquila son algunos de los atractivos de la playa Inca inca, Un lugar para descansar, tomar el sol y disfrutar de la comida de mar en La Pikua Express Se encuentra a 8 minutos en lancha desde el Rodadero con este plan saliendo de los muelles Rodadero Norte o Rodadero Sur.',
       imagen: 'https://i.ibb.co/8cqcrbf/Playa-Inka-Inka-Santa-Marta.jpg" alt="Playa-Inka-Inka-Santa-Marta"',
       incluye: [
@@ -71,6 +73,7 @@ export class DetallePlanService {
     {
       id: 3,
       titulo: 'San Andres',
+      ciudad:  'Santa carolina',
       precio: '$190.000',
       descripcion: 'Vuele por lo cielos de san andres y observe el magnifico mar de 7 colores, disfrute de esta gran aventura donde podrá observar toda la isla desde las alturas observando paisajes únicos y experimentando adrenalina a bordo del equipo más moderno y seguro para vuelos recreativos en paracaídas. ',
       imagen: 'https://i.ibb.co/GRkHYKP/ecc404e8-9a99-46b0-a56a-ead992b5166e.png" alt="ecc404e8-9a99-46b0-a56a-ead992b5166e',
@@ -90,7 +93,9 @@ export class DetallePlanService {
     },
     {
       id: 4,
+      
       titulo: 'playa blanca',
+      ciudad:  'Santa marta',
       precio: '$90.000',
       descripcion: 'Recorrido en lancha de 10 minutos, desde la Bahía del Rodadero hasta Playa Blanca para disfrutar de un baño de mar durante el dia. Esta playa es considerablemente menos visitada, a decir verdad, lo que le obsequia el atributo ideal para que pases un espectacular día en familia.',
       imagen: 'https://i.ibb.co/d0fvjn1/Como-Llegar-a-Playa-Blanca-Acuario-Santa-Marta-Chip-Viajero-10.jpg" alt="Como-Llegar-a-Playa-Blanca-Acuario-Santa-Marta-Chip-Viajero-10',
@@ -112,6 +117,7 @@ export class DetallePlanService {
     {
       id: 5,
       titulo: 'CABO DE LA VELA',
+      ciudad:  'Guajira',
       precio: '$330.000',
       descripcion: 'Salida a las 4:30 a.m. Traslado hasta Riohacha, llegando a las 7:30 a.m. para desayunar. A las 8:30 a.m. Salida hacia el Cabo de la Vela por la vía que conduce a Maicao y tomando la desviación en “cuatrovias” hacia Uribia, estando en Uribia tomamos la desviación a mano izquierda hacia Manaure.',
       imagen: 'https://i.ibb.co/SnDZ7dV/guia-de-viajes-colombia-como-visitar-a-cabo-de-la-vela-la-guajira.jpg" alt="guia-de-viajes-colombia-como-visitar-a-cabo-de-la-vela-la-guajira',
@@ -133,6 +139,7 @@ export class DetallePlanService {
       id: 6,
       titulo: 'taganga',
       precio: '$70.000',
+      ciudad:  'Santa marta',
       descripcion: 'Recorrido por la ciudad de Santa Marta, pasando por los sitios de interés histórico como la Quinta de san pedro alejandrino última morada del Libertador Simón Bolívar, las principales avenidas, la estatua del Pibe Valderrama jugador de fútbol, el mirador de taganga y la parte comercial de ciudad para hacer compras.',
       imagen: 'https://i.ibb.co/q7gB7pq/taganga.jpg" alt="taganga',
       incluye: [

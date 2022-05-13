@@ -8,7 +8,8 @@ body
     background-image: rgb(0, 0, 0);
     background-color: #6699;
     color: #FFFF;
-    height: 600px;
+    
+    height: auto;
 }
 .col{
     background: transparent;
