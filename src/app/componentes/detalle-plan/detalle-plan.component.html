@@ -6,21 +6,23 @@
   
   <main  class="container_item">
     <div class="imagenf" style=" background-image: url('{{detalle.imagen}}');">
-      <div class="col-md-6 cont  px-0">
+      <div class="col-md-6   px-0">
       
        
+        <div class="inicio">  <h1 class="display-4 fst-italic " >{{detalle.titulo}}</h1>
+          <h3 class=" " >{{detalle.ciudad}}</h3></div>
         
-          <h1 class="display-4 fst-italic " >{{detalle.titulo}}</h1>
-          <h3 class=" " >{{detalle.ciudad}}</h3>
      
      
-       <div class="items">
-        <P class="lead pre my-3 heredar">{{detalle.precio}}</P>
+       
+      </div>
+      <div class="items">
+        <P class="lead pre my-3 ">{{detalle.precio}}</P>
         <button  type="button" class="btn boton1  btn-dark" onclick="alert('compra exitosa')"> <a  class="a" href="">Comprar </a></button>
            
        </div>
-      </div>
     </div>
+    
   </main>
   
   <div   class="container_item2 px-4 py-5" id="featured-3" *ngFor="let detalle of plan">
@@ -59,22 +61,29 @@
             </a>
           </div>
         </div>
+        <H1 class="h1">GALERIA</H1>
       </div>
      
+      
         <!-- Modal gallery -->
         <div class="gallery" *ngFor="let detalle of plan">
-          <H1>GALERIA</H1>
-          <div class="gallery_img">
-           
+
+          
             <img src="{{detalle.imgg}}" alt="">
-          </div>
-          <div class="gallery_img"> 
+
             <img src="{{detalle.imgg2}}" alt="">
-          </div>
-          <div class="gallery_img">
+
             <img src="{{detalle.imgg3}}" alt="">
-          </div>
-        </div>
+
+            <img src="{{detalle.imgg}}" alt="">
+            <img src="{{detalle.imgg2}}" alt="">
+
+            <img src="{{detalle.imgg3}}" alt="">
+
+           
+
+
+</div>        
   
   <!-- Modal gallery -->
       
